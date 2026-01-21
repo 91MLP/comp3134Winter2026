@@ -1,0 +1,96 @@
+﻿Domain Information
+NameGOOGLE.COMRegistry Domain ID2138514_DOMAIN_COM-VRSNRegistered On1997-09-15T04:00:00ZExpires On2028-09-14T04:00:00ZUpdated On2019-09-09T15:39:04ZDomain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+NS1.GOOGLE.COM
+NS2.GOOGLE.COM
+NS3.GOOGLE.COM
+NS4.GOOGLE.COM
+
+
+
+
+
+
+
+
+Domain Information
+NameAMAZON.COMRegistry Domain ID281209_DOMAIN_COM-VRSNRegistered On1994-11-01T05:00:00ZExpires On2026-10-31T04:00:00ZUpdated On2025-07-31T17:49:55ZDomain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+NS1.AMZNDNS.CO.UK
+NS1.AMZNDNS.COM
+NS1.AMZNDNS.NET
+NS1.AMZNDNS.ORG
+NS2.AMZNDNS.CO.UK
+NS2.AMZNDNS.COM
+NS2.AMZNDNS.NET
+NS2.AMZNDNS.ORG
+
+
+
+
+
+
+Domain Information
+NameBBC.COMRegistry Domain ID4794897_DOMAIN_COM-VRSNRegistered On1989-07-15T04:00:00ZExpires On2030-07-14T04:00:00ZUpdated On2021-07-06T15:03:44ZDomain Status
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+Name Servers
+DDNS0.BBC.CO.UK
+DDNS0.BBC.COM
+DDNS1.BBC.CO.UK
+DDNS1.BBC.COM
+DNS0.BBC.CO.UK
+DNS0.BBC.COM
+DNS1.BBC.CO.UK
+DNS1.BBC.COM
+
+
+
+
+
+
+Domain Information
+NameOPENAI.COMRegistry Domain ID764064142_DOMAIN_COM-VRSNRegistered On2007-01-19T19:28:24ZExpires On2029-01-19T19:28:24ZUpdated On2024-10-17T22:20:04ZDomain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers
+NS1-02.AZURE-DNS.COM
+NS2-02.AZURE-DNS.NET
+NS3-02.AZURE-DNS.ORG
+NS4-02.AZURE-DNS.INFO
+
+
+
+
+Domain Information
+NameGITHUB.COMRegistry Domain ID1264983250_DOMAIN_COM-VRSNRegistered On2007-10-09T18:20:50ZExpires On2026-10-09T18:20:50ZUpdated On2024-09-07T09:16:32ZDomain Status
+client delete prohibited
+client transfer prohibited
+client update prohibited
+Name Servers
+DNS1.P08.NSONE.NET
+DNS2.P08.NSONE.NET
+DNS3.P08.NSONE.NET
+DNS4.P08.NSONE.NET
+NS-1283.AWSDNS-32.ORG
+NS-1707.AWSDNS-21.CO.UK
+NS-421.AWSDNS-52.COM
+NS-520.AWSDNS-01.NET

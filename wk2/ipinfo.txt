@@ -1,0 +1,30 @@
+﻿Domain: apple.com
+IPv4 Address: 17.253.144.10
+Owner: Apple Inc.
+Country: United States
+
+
+Domain: microsoft.com
+IPv4 Address: 13.107.246.40
+Owner:  Microsoft Corporation
+Country: United States
+
+
+
+
+Domain:netflix.com
+IPv4 Address: 54.237.226.164
+Owner:  Amazon.com Inc. 
+Country: United States
+
+
+Domain:cnn.com
+IPv4 Address: 151.101.131.5
+Owner:  Fastly Inc.
+Country: United States
+
+
+Domain:spotify.com
+IPv4 Address: 35.186.224.24
+Owner:  Google LLC 
+Country: United States

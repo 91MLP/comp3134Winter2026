@@ -1,0 +1,7 @@
+﻿yueyang@YueyangdeMacBook-Air-2 ~ % traceroute 159.89.116.204
+traceroute to 159.89.116.204 (159.89.116.204), 64 hops max, 40 byte packets
+ 1  10.4.96.1 (10.4.96.1)  4.838 ms  3.646 ms  4.269 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *

@@ -1,0 +1,61 @@
+﻿root@winter2026-3134:~# nmap google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-21 18:15 UTC
+Nmap scan report for google.com (142.250.137.138)
+Host is up (0.0029s latency).
+Other addresses for google.com (not scanned): 142.250.137.139 142.250.137.101 142.250.137.102 142.250.137.113 142.250.137.100 2607:f8b0:4023:1807::64 2607:f8b0:4023:1807::66 2607:f8b0:4023:1807::8a 2607:f8b0:4023:1807::71
+rDNS record for 142.250.137.138: pnyyzb-in-f138.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+Nmap done: 1 IP address (1 host up) scanned in 4.65 seconds
+
+
+
+
+
+
+root@winter2026-3134:~# nmap -p 80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-21 18:16 UTC
+Nmap scan report for google.com (142.250.139.113)
+Host is up (0.0029s latency).
+Other addresses for google.com (not scanned): 142.250.139.102 142.250.139.138 142.250.139.101 142.250.139.100 142.250.139.139 2607:f8b0:4023:1807::8a 2607:f8b0:4023:1807::71 2607:f8b0:4023:1807::64 2607:f8b0:4023:1807::66
+rDNS record for 142.250.139.113: lcyyzb-in-f113.1e100.net
+PORT   STATE SERVICE
+80/tcp open  http
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+
+
+
+
+
+root@winter2026-3134:~# nmap -p 20-100 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-21 18:17 UTC
+Nmap scan report for google.com (192.178.192.101)
+Host is up (0.0028s latency).
+Other addresses for google.com (not scanned): 192.178.192.100 192.178.192.102 192.178.192.113 192.178.192.138 192.178.192.139 2607:f8b0:4023:1803::8b 2607:f8b0:4023:1803::66 2607:f8b0:4023:1803::8a 2607:f8b0:4023:1803::71
+rDNS record for 192.178.192.101: lcyyzn-in-f101.1e100.net
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds
+
+
+
+
+
+
+
+
+root@winter2026-3134:~# nmap -F google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-21 18:18 UTC
+Nmap scan report for google.com (192.178.192.102)
+Host is up (0.0029s latency).
+Other addresses for google.com (not scanned): 192.178.192.101 192.178.192.100 192.178.192.138 192.178.192.139 192.178.192.113 2607:f8b0:4023:1803::8a 2607:f8b0:4023:1803::71 2607:f8b0:4023:1803::66 2607:f8b0:4023:1803::8b
+rDNS record for 192.178.192.102: lcyyzn-in-f102.1e100.net
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+Nmap done: 1 IP address (1 host up) scanned in 1.88 seconds

@@ -1,0 +1,13 @@
+﻿yueyang@YueyangdeMacBook-Air-2 ~ % ping 159.89.116.204
+PING 159.89.116.204 (159.89.116.204): 56 data bytes
+64 bytes from 159.89.116.204: icmp_seq=0 ttl=56 time=10.026 ms
+64 bytes from 159.89.116.204: icmp_seq=1 ttl=56 time=5.906 ms
+64 bytes from 159.89.116.204: icmp_seq=2 ttl=56 time=5.842 ms
+64 bytes from 159.89.116.204: icmp_seq=3 ttl=56 time=5.914 ms
+64 bytes from 159.89.116.204: icmp_seq=4 ttl=56 time=5.843 ms
+64 bytes from 159.89.116.204: icmp_seq=5 ttl=56 time=9.422 ms
+64 bytes from 159.89.116.204: icmp_seq=6 ttl=56 time=5.507 ms
+^C
+--- 159.89.116.204 ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.507/6.923/10.026/1.783 ms
