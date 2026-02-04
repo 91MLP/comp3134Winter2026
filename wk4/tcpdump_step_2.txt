@@ -1,0 +1,46 @@
+﻿root@winter2026-3134:~# tcpdump -i eth0 tcp or udp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:50:21.249297 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 3592772557:3592772753, ack 3416415663, win 493, options [nop,nop,TS val 1670550354 ecr 1071006095], length 196
+22:50:21.256087 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 196, win 2048, options [nop,nop,TS val 1071006107 ecr 1670550354], length 0
+22:50:21.258315 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 1:37, ack 196, win 2048, options [nop,nop,TS val 1071006110 ecr 1670550354], length 36
+22:50:21.258522 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 196:232, ack 37, win 493, options [nop,nop,TS val 1670550364 ecr 1071006110], length 36
+22:50:21.264843 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 232, win 2048, options [nop,nop,TS val 1071006117 ecr 1670550364], length 0
+22:50:21.282618 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 37:73, ack 232, win 2048, options [nop,nop,TS val 1071006135 ecr 1670550364], length 36
+22:50:21.282847 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 232:268, ack 73, win 493, options [nop,nop,TS val 1670550388 ecr 1071006135], length 36
+22:50:21.289101 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 268, win 2048, options [nop,nop,TS val 1071006141 ecr 1670550388], length 0
+22:50:21.305380 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 73:109, ack 268, win 2048, options [nop,nop,TS val 1071006157 ecr 1670550388], length 36
+22:50:21.305570 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 268:304, ack 109, win 493, options [nop,nop,TS val 1670550411 ecr 1071006157], length 36
+22:50:21.312226 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 304, win 2048, options [nop,nop,TS val 1071006164 ecr 1670550411], length 0
+22:50:21.329592 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 109:145, ack 304, win 2048, options [nop,nop,TS val 1071006181 ecr 1670550411], length 36
+22:50:21.329768 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 304:340, ack 145, win 493, options [nop,nop,TS val 1670550435 ecr 1071006181], length 36
+22:50:21.336592 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 340, win 2048, options [nop,nop,TS val 1071006188 ecr 1670550435], length 0
+22:50:21.351264 IP winter2026-3134.38625 > 67.207.67.2.domain: 48581+ [1au] PTR? 108.39.88.174.in-addr.arpa. (55)
+22:50:21.351354 IP winter2026-3134.35835 > 67.207.67.2.domain: 14521+ [1au] PTR? 108.39.88.174.in-addr.arpa. (55)
+22:50:21.353816 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 145:181, ack 340, win 2048, options [nop,nop,TS val 1071006205 ecr 1670550435], length 36
+22:50:21.353971 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 340:376, ack 181, win 493, options [nop,nop,TS val 1670550459 ecr 1071006205], length 36
+22:50:21.359661 IP 67.207.67.2.domain > winter2026-3134.38625: 48581 1/0/1 PTR bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca. (123)
+22:50:21.359757 IP 67.207.67.2.domain > winter2026-3134.35835: 14521 1/0/1 PTR bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca. (123)
+22:50:21.359809 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 376, win 2048, options [nop,nop,TS val 1071006212 ecr 1670550459], length 0
+22:50:21.360651 IP winter2026-3134.41684 > 67.207.67.2.domain: 6+ [1au] PTR? 204.116.89.159.in-addr.arpa. (56)
+22:50:21.378848 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 181:217, ack 376, win 2048, options [nop,nop,TS val 1071006230 ecr 1670550459], length 36
+22:50:21.379028 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 376:412, ack 217, win 493, options [nop,nop,TS val 1670550484 ecr 1071006230], length 36
+22:50:21.383418 IP 67.207.67.2.domain > winter2026-3134.41684: 6 NXDomain 0/1/1 (123)
+22:50:21.384469 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 412:3328, ack 217, win 493, options [nop,nop,TS val 1670550490 ecr 1071006230], length 2916
+22:50:21.384942 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 412, win 2048, options [nop,nop,TS val 1071006237 ecr 1670550484], length 0
+22:50:21.391469 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 3328, win 2003, options [nop,nop,TS val 1071006243 ecr 1670550490], length 0
+22:50:21.391470 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 3328, win 2048, options [nop,nop,TS val 1071006243 ecr 1670550490], length 0
+22:50:21.401710 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 217:253, ack 3328, win 2048, options [nop,nop,TS val 1071006253 ecr 1670550490], length 36
+22:50:21.401920 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 3328:3364, ack 253, win 493, options [nop,nop,TS val 1670550507 ecr 1071006253], length 36
+22:50:21.411963 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 3364, win 2048, options [nop,nop,TS val 1071006261 ecr 1670550507], length 0
+22:50:21.424109 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 253:289, ack 3364, win 2048, options [nop,nop,TS val 1071006276 ecr 1670550507], length 36
+22:50:21.424291 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 3364:3400, ack 289, win 493, options [nop,nop,TS val 1670550529 ecr 1071006276], length 36
+22:50:21.430626 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 3400, win 2048, options [nop,nop,TS val 1071006282 ecr 1670550529], length 0
+22:50:21.447728 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 289:325, ack 3400, win 2048, options [nop,nop,TS val 1071006298 ecr 1670550529], length 36
+22:50:21.447906 IP winter2026-3134.ssh > bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595: Flags [P.], seq 3400:3436, ack 325, win 493, options [nop,nop,TS val 1670550553 ecr 1071006298], length 36
+22:50:21.454644 IP winter2026-3134.37004 > 67.207.67.2.domain: 20369+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+22:50:21.454741 IP winter2026-3134.42897 > 67.207.67.2.domain: 35568+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+22:50:21.454799 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [.], ack 3436, win 2048, options [nop,nop,TS val 1071006306 ecr 1670550553], length 0
+22:50:21.455509 IP 67.207.67.2.domain > winter2026-3134.37004: 20369 NXDomain 0/1/1 (168)
+22:50:21.455949 IP 67.207.67.2.domain > winter2026-3134.42897: 35568 NXDomain 0/1/1 (168)
+22:50:21.473898 IP bras-base-toroon1019w-grc-07-174-88-39-108.dsl.bell.ca.57595 > winter2026-3134.ssh: Flags [P.], seq 325:361, ack 3436, win 2048, options [nop,nop,TS val 1071006323 ecr 1670550553], length
