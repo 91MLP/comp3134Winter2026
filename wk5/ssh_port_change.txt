@@ -1,0 +1,9 @@
+﻿yueyang@Mac ~ % ssh -p 2222 root@159.89.116.204
+root@159.89.116.204's password: 
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-94-generic x86_64)
+
+
+
+
+root@winter2026-3134:~# sudo service ssh restart
+root@winter2026-3134:~#
