@@ -1,0 +1,7 @@
+﻿When I open the page with q=../../, the browser displays files and folders outside the intended web directory.
+
+
+The issue is directory traversal. The script allows the user to move up the directory tree and access locations before the html directory.
+
+
+This may expose sensitive information such as system folders, application structure, and other files that should not be visible to users.

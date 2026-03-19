@@ -1,0 +1,7 @@
+﻿I mitigated the issue by removing the sensitive HTML comments from the page source and replacing them with PHP comments.
+
+
+HTML comments are visible to anyone who views the page source in the browser, so they can expose internal information such as developer names or employee IDs.
+
+
+PHP comments are processed on the server side and are not sent to the browser, so users cannot see them in the page source.

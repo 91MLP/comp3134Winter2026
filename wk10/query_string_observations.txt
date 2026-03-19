@@ -1,0 +1,7 @@
+1) When I typed a valid English word in the form, the site redirected me to the page for that word and showed the correct dictionary result.
+
+2) When I typed an invalid English word after the /browse/ section of the URL, the site did not execute anything dangerous. It showed that no exact definition was found or suggested related words.
+
+3) When I typed <script>alert('hello')</script> in the form, the script was not executed. The site treated the input as text and did not allow JavaScript to run.
+
+4) When I placed <script>alert('hello')</script> in the URL, the script was still not executed. The site filtered or encoded the input, which shows there is mitigation against script injection.

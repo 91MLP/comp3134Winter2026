@@ -1,0 +1,7 @@
+﻿When I open the page with q=%2e%2e%2f, the browser still displays directory contents outside the expected location.
+
+
+The issue is that encoded traversal input is still accepted by the script. Even though the traversal characters are URL-encoded, the application still processes them.
+
+
+This may expose sensitive information such as server folders, internal structure, and files that should not be accessible from the browser.

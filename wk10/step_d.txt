@@ -1,0 +1,7 @@
+﻿When I open directory_traversal_part1.php?q=hello, the browser shows a warning/error because the folder does not exist and scandir() cannot scan that path.
+
+
+The issue is that the page takes user input directly from the query string without validation. This allows invalid paths to be processed by the script.
+
+
+This page may reveal sensitive information such as server error messages, internal file paths, and details about the server directory structure.

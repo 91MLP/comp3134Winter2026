@@ -1,0 +1,5 @@
+strip_tags() removes HTML and PHP tags from the input. It tries to delete the tags and keeps only the plain text content.
+
+htmlentities() does not remove the tags. Instead, it converts special characters such as < and > into safe HTML entities like &lt; and &gt; so the browser displays them as text.
+
+The main difference is that strip_tags() deletes tags, while htmlentities() encodes them and shows the original input safely on the page.

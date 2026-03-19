@@ -1,0 +1,7 @@
+﻿To mitigate the first issue, I use basename() so the user cannot traverse outside the intended html directory.
+
+
+To mitigate the second issue, I use file_exists() and is_dir() so the script does not try to scan folders that do not exist.
+
+
+As a bonus mitigation, I check for a dot in the input so users cannot pass a filename.
